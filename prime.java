@@ -1,5 +1,24 @@
 import java.util.scanner;
 class prime{
+		//iteration method
+
+		static void nsum(int number) {
+	
+	int count=0;
+	        System.out.print("iteration is: ");
+
+	        for (int i =2; i < number; i++) {
+
+	            if ((number % i != 0) || (number % i == 0))
+	            count=count+1;
+	            {
+	            }
+
+	        }
+	        System.out.print(count + " ");
+
+
+	    }
 	//iteration method
   static void sum(int num) {
 	int count=0;
@@ -29,6 +48,7 @@ class prime{
      if(n % 2==0) {
    	  System.out.println(n+" is composite number and factors are");
   pf(n);
+	     nsum(n);
      }else {   	  System.out.println(n+" is prime number");
         sum(n);
     	
