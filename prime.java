@@ -1,8 +1,8 @@
 import java.util.scanner;
 class prime{
-  static	void sum(int num) {
+	//iteration method
+  static void sum(int num) {
 	int count=0;
-    // System.out.print("Factors of " + num + " are: ");
 
      for (int i =1; i < num; i++) {
 
