@@ -15,6 +15,9 @@ class prime{
      if(n % 2==0) {
    	  System.out.println(n+" is composite number and factors are");
   pf(n);
-     }
+     }else {   	  System.out.println(n+" is prime number");
+
+    	
+    }
   }
 }
