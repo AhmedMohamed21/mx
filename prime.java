@@ -8,6 +8,10 @@ class prime{
       }
   }
   public sataic void main(String arg[]){
-  pf();
+    int n;
+    Scanner in=new Scanner(System.in);
+    System.out.println("Enter a number \n");
+    n=in.nextInt();
+  pf(n);
   }
 }
