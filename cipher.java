@@ -29,14 +29,14 @@ final int maxc=256;
 String s;
     int x;
     Scanner in=new Scanner(System.in);
-   system.ot.println("enter a text");
+   System.ot.println("enter a text");
     s=in.nextLine();
-   system.ot.println("analysis:\n");
+   System.ot.println("analysis:\n");
     getChar(s);
-    system.out.println("option:\n 1)take replace \n 2)exit");
+    System.out.println("option:\n 1)take replace \n 2)exit");
     x=in.nextInt();
     if(x==1){
-    }elseif(x==2){}else{
+    }else if(x==2){}else{
     }
 }
 }
