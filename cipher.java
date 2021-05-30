@@ -26,9 +26,11 @@ final int maxc=256;
     
 }
   public static void main(String arg[]){
-string s;
+String s;
     Scanner in=new Scanner(System.in);
+   system.ot.println("enter a text");
     s=in.nextLine();
+   system.ot.println("analysis:\n");
     getChar(s);
 }
 }
