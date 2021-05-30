@@ -1,5 +1,22 @@
 import java.util.scanner;
 class prime{
+	//iteration second method
+		static	void mm(int num) {
+
+		int ncount=0,count=2;
+
+        for (int i =1; i < num; i++) {
+
+            if (num % i == 1)
+            ncount=count+1;
+            {
+if(count==ncount) {
+	ncount--;
+}
+            }
+            }
+        System.out.println("second iteration is:" + ncount);
+	}
 		//iteration method
 
 		static void nsum(int number) {
@@ -49,8 +66,10 @@ class prime{
    	  System.out.println(n+" is composite number and factors are");
   pf(n);
 	     nsum(n);
+	     mm(n);
      }else {   	  System.out.println(n+" is prime number");
         sum(n);
+	    mm(n);
     	
     }
   }
