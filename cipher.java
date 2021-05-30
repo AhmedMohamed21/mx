@@ -27,10 +27,16 @@ final int maxc=256;
 }
   public static void main(String arg[]){
 String s;
+    int x;
     Scanner in=new Scanner(System.in);
    system.ot.println("enter a text");
     s=in.nextLine();
    system.ot.println("analysis:\n");
     getChar(s);
+    system.out.println("option:\n 1)take replace \n 2)exit");
+    x=in.nextInt();
+    if(x==1){
+    }elseif(x==2){}else{
+    }
 }
 }
