@@ -5,6 +5,8 @@ final int maxc=256;
 		int index = s.indexOf( o );
 		String news=s.replace(o, n);
 		System.out.println("plain text \n"+news );
+	  System.out.println("analysis:\n");
+		getChar(news);
 	}
   	static void getChar(String str)
     {int count[]=new int[maxc];
