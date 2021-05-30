@@ -36,7 +36,8 @@ String s;
     System.out.println("option:\n 1)take replace \n 2)exit");
     x=in.nextInt();
     if(x==1){
-    }else if(x==2){}else{
+    }else if(x==2){    System.exit(0);
+}else{System.out.println("wrong input");
     }
 }
 }
