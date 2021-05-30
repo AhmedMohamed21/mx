@@ -26,6 +26,9 @@ final int maxc=256;
     
 }
   public static void main(String arg[]){
-
+string s;
+    Scanner in=new Scanner(System.in);
+    s=in.nextLine();
+    getChar(s);
 }
 }
