@@ -1,6 +1,11 @@
 import java.util.scanner;
 class cipher{
 final int maxc=256;
+  static void repc(String s,char o,char n) {
+		int index = s.indexOf( o );
+		String news=s.replace(o, n);
+		System.out.println("plain text \n"+news );
+	}
   	static void getChar(String str)
     {int count[]=new int[maxc];
      int len = str.length();
@@ -35,7 +40,12 @@ String s;
     getChar(s);
     System.out.println("option:\n 1)take replace \n 2)exit");
     x=in.nextInt();
-    if(x==1){
+    if(x==1){String o;char old,ne;
+System.out.println("enter new char with old like m:a");
+o=in.next();
+old=o.charAt(0);
+ne=o.charAt(2);
+repc(s,old,ne);
     }else if(x==2){    System.exit(0);
 }else{System.out.println("wrong input");
     }
